@@ -24,10 +24,12 @@ body {
     background: linear-gradient(var(--soft-violet), var(--soft-blue));
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-y: scroll;
 }
 
 .container {
     margin-top: 70px;
+    display: grid;
 }
 
 .card {
@@ -42,10 +44,6 @@ body {
     background-image: url(bg-pattern-desktop.svg);
 }
 
-.woman {
-    width: 40%;
-}
-
-.box {
-    margin-left: -410px;
+.left {
+    width: 50%;
 }
