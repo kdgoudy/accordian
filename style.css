@@ -29,7 +29,7 @@ body {
 
 .container {
     margin-top: 70px;
-    display: grid;
+    display: flex;
 }
 
 .card {
@@ -46,4 +46,10 @@ body {
 
 .left {
     width: 50%;
+    float: left;
+    padding-right: 30px;
+}
+
+.box {
+    margin-top: -90px;
 }
