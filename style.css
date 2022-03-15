@@ -34,7 +34,8 @@ body {
 
 .card {
     background-color: var(--white);
-    width: 70%;
+    width: 80%;
+    height: 490px;
     margin: auto;
     border-radius: 12px;
     -webkit-border-radius: 12px;
@@ -47,9 +48,22 @@ body {
 .left {
     width: 50%;
     float: left;
-    padding-right: 30px;
+}
+
+.woman {
+    margin-left: -30px;
+    margin-top: 50px;
 }
 
 .box {
-    margin-top: -90px;
+    margin-top: -200px;
+    margin-left: -90px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.faq {
+    margin-top: 50px;
 }
