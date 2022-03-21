@@ -25,45 +25,26 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     overflow-y: scroll;
+    position: relative;
 }
 
-.container {
-    margin-top: 70px;
+main {
     display: flex;
-}
-
-.card {
+    width: 90%;
     background-color: var(--white);
-    width: 80%;
-    height: 490px;
-    margin: auto;
     border-radius: 12px;
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
     -ms-border-radius: 12px;
     -o-border-radius: 12px;
-    background-image: url(bg-pattern-desktop.svg);
-}
-
-.left {
-    width: 50%;
-    float: left;
-}
-
-.woman {
-    margin-left: -30px;
-    margin-top: 50px;
-}
-
-.box {
-    margin-top: -200px;
-    margin-left: -90px;
-}
-
-h1 {
-    font-size: 30px;
-}
-
-.faq {
-    margin-top: 50px;
+    margin: auto;
+    margin-top: 3em;y
+    .illustration {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: -7em;
+        margin-left: -1em;
+    }
 }
